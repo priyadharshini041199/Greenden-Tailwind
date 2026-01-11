@@ -1,0 +1,99 @@
+<style>
+    .container {
+        display: grid;
+        grid-template-rows: 1fr 3fr 1fr;
+
+    }
+
+    .header {
+        background-color: rgb(12, 225, 139);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40;
+    }
+
+    .middle {
+        background-color: bisque;
+    }
+
+    .footer {
+        background-color: rgb(12, 225, 139);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    .middle {
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        margin: 30px;
+    }
+
+    .Aside {
+        background-color: rgb(23, 167, 23);
+        color: white;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+
+    }
+
+    .Article-box {
+        background-color: orange;
+        margin-left: 30px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+
+
+    .Article {
+        color: white;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items:last baseline;
+    }
+
+    .image-box {
+        
+        display: flex;
+        justify-content:space-evenly;
+
+
+    }
+
+    .Image{
+        background-color: yellow;
+        color: white;
+        font-size: 30px;
+        height: 200px;
+        width: 300px;
+        margin: 10px;
+        display:grid ;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
+<div class="container">
+    <div class="header">Header</div>
+    <div class="middle">
+        <div class="Aside">Aside</div>
+        <div class="Article-box">
+            <div class="Article">Article</div>
+            <div class="image-box">
+                <div class="Image">Image</div>
+                <div class="Image">Image</div>
+                <div class="Image">Image</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">Footer</div>
+</div>
